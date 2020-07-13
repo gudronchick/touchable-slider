@@ -35,3 +35,7 @@ if (window.PointerEvent) {
   wrapper.addEventListener('mousemove', moveWrap);
   wrapper.addEventListener('mouseleave', leaveWrap);
 }
+
+document.addEventListener('touchstart', (e) => {
+  console.log(e);
+})
